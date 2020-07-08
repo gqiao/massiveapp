@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'gmetric'
-gem 'jquery-rails'
+gem 'jquery-rails', '>= 3.1.3'
 gem 'mysql2'
 gem 'rails', '3.2.2'
 gem 'twitter-bootstrap-rails'
