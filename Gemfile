@@ -1,16 +1,16 @@
 source 'https://rubygems.org'
 
 gem 'gmetric'
-gem 'jquery-rails'
+gem 'jquery-rails', '>= 2.0.1'
 gem 'mysql2'
-gem 'rails', '3.2.2'
-gem 'twitter-bootstrap-rails'
+gem 'rails', '4.0.0'
+gem 'twitter-bootstrap-rails', '>= 2.0.3'
 gem 'whenever', :require => false
-gem 'paper_trail'
+gem 'paper_trail', '>= 3.0.0'
 
 group :assets do
-  gem 'sass-rails', '~> 3.2.3'
-  gem 'coffee-rails', '~> 3.2.1'
+  gem 'sass-rails', '~> 4.0.0'
+  gem 'coffee-rails', '~> 4.0.0'
   gem 'uglifier', '>= 1.0.3'
 end
 
